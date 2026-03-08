@@ -6,7 +6,7 @@ import AppButton from './Button';
 
 const theme = createTheme({
     palette: {
-        primary: { main: '#5c6bc0' },
+        primary: { main: '#5c6bc1' },
         secondary: { main: '#ec407a' },
     },
     typography: {
@@ -23,7 +23,7 @@ const CARDS = [
 
 export default function App() {
     const [active, setActive] = useState(null);
-
+  
     return (
         <ThemeProvider theme={theme}>
             <CssBaseline />
