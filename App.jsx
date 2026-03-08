@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { ThemeProvider, createTheme, CssBaseline } from '@mui/material';
 import { Container, AppBar, Toolbar, Typography, Box, Button, Stack } from '@mui/material';
-import Card from './components/Card';
-import AppButton from './components/Button';
+import Card from './Card';
+import AppButton from './Button';
 
 const theme = createTheme({
     palette: {
