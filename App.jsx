@@ -9,7 +9,7 @@ import {
   Button,
   Stack,
 } from '@mui/material';
-import Card from './Card';
+import Card from './Card2';
 import AppButton from './Button';
 
 const theme = createTheme({
