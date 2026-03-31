@@ -13,7 +13,7 @@ import OpenInNewIcon from '@mui/icons-material/OpenInNew';
  *   description  {string}
  *   bgcolor      {string}   Background colour for the card header band
  *   selected     {boolean}
- *   onSelect     {Function}d
+ *   onSelect     {Function}dd
  */
 export default function Card({ title, description, bgcolor = '#f5f5f5', selected, onSelect }) {
     return (
