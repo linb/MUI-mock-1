@@ -3,8 +3,8 @@ import {
     Card as MuiCard, CardContent, CardActions,
     Typography, Button, Box, Chip,
 } from '@mui/material';
-import OpenInNewIcon from '@mui/icons-material/OpenInNew';
-
+import {OpenInNewIcon} from '@mui/icons-material';
+ 
 /**
  * Card — Reusable info card built on top of MUI Card.
  *
