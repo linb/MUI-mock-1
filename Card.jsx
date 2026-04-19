@@ -5,7 +5,7 @@ import {
 } from '@mui/material';
 import {OpenInNew} from '@mui/icons-material';
  
-/**
+/** a
  * Card — Reusable info card built on top of MUI Card.
  *
  * Props:
