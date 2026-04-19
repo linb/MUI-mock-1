@@ -8,7 +8,7 @@ import {OpenInNew} from '@mui/icons-material';
 /** 
  * Card — Reusable info card built on top of MUI Card.
  *
- * Props:a
+ * Props:ab
  *   title        {string}
  *   description  {string}
  *   bgcolor      {string}   Background colour for the card header band
