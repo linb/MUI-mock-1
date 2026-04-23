@@ -3,9 +3,9 @@ import {
     Card as MuiCard, CardContent, CardActions,
     Typography, Button, Box, Chip,
 } from '@mui/material';
-import OpenInNewIcon from '@mui/icons-material/OpenInNew';
-
-/**
+import {OpenInNew} from '@mui/icons-material';
+ 
+/** 
  * Card — Reusable info card built on top of MUI Card.
  *
  * Props:
@@ -13,7 +13,7 @@ import OpenInNewIcon from '@mui/icons-material/OpenInNew';
  *   description  {string}
  *   bgcolor      {string}   Background colour for the card header band
  *   selected     {boolean}
- *   onSelect     {Function}dd
+ *   onSelect     {Function}
  */
 export default function Card({ title, description, bgcolor = '#f5f5f5', selected, onSelect }) {
     return (
@@ -45,7 +45,7 @@ export default function Card({ title, description, bgcolor = '#f5f5f5', selected
             </CardContent>
 
             <CardActions sx={{ px: 2, pb: 2 }}>
-                <Button size="small" endIcon={<OpenInNewIcon fontSize="inherit" />} sx={{ textTransform: 'none' }}>
+                <Button size="small" endIcon={<OpenInNew fontSize="inherit" />} sx={{ textTransform: 'none' }}>
                     Open
                 </Button>
             </CardActions>
