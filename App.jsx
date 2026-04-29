@@ -52,7 +52,7 @@ export default function App() {
           <Typography variant="h6" fontWeight={700} sx={{ flexGrow: 1 }}>
             My MUI App
           </Typography>
-          <AppButton variant="outlined" color="inherit" size="small">
+          <AppButton variant="outlined" color="inherit" size="small" style = {{"width":"250px", "backgroundColor" : "#1976d2"}}>
             Sign In
           </AppButton>
         </Toolbar>
