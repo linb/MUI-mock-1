@@ -28,7 +28,7 @@ export default function Card({ title, description, bgcolor = '#f5f5f5', selected
                 borderColor: selected ? 'primary.main' : 'transparent',
                 '&:hover': { transform: 'translateY(-2px)', boxShadow: 4 },
             }}
-        >
+        > 
             {/* Coloured header band */}
             <Box sx={{ height: 8, bgcolor }} />
 
@@ -46,7 +46,7 @@ export default function Card({ title, description, bgcolor = '#f5f5f5', selected
 
             <CardActions sx={{ px: 2, pb: 2 }}>
                 <Button size="small" endIcon={<OpenInNew fontSize="inherit" />} sx={{ textTransform: 'none' }}>
-                    Open Ad
+                    Open
                 </Button>
             </CardActions>
         </MuiCard>
