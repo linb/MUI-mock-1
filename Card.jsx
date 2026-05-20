@@ -46,7 +46,7 @@ export default function Card({ title, description, bgcolor = '#f5f5f5', selected
 
             <CardActions sx={{ px: 2, pb: 2 }}>
                 <Button size="small" endIcon={<OpenInNew fontSize="inherit" />} sx={{ textTransform: 'none' }}>
-                    Open ASbdddd
+                    Open A
                 </Button>
             </CardActions>
         </MuiCard>
