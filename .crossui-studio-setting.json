@@ -1,0 +1,20 @@
+{
+  "importMap": {},
+  "importMapScopes": "",
+  "dependencies": [],
+  "fileMap": {},
+  "envVars": {},
+  "styleLinks": [],
+  "scriptLinks": [],
+  "inlineScript": "",
+  "inlineStyles": "",
+  "jsConfig": {
+    "reactTier": "modern",
+    "useLocalLib": false,
+    "defaultCDN": "esm",
+    "queryOptions": {
+      "dev": false,
+      "target": "es2022"
+    }
+  }
+}
