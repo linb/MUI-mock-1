@@ -9,7 +9,7 @@
   "inlineScript": "",
   "inlineStyles": "",
   "jsConfig": {
-    "reactTier": "modern",
+    "reactTier": "classic",
     "useLocalLib": false,
     "defaultCDN": "esm",
     "queryOptions": {
