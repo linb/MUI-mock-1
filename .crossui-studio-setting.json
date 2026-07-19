@@ -8,12 +8,15 @@
   "inlineScript": "",
   "inlineStyles": "",
   "jsConfig": {
-    "reactTier": "classic",
+    "reactTier": "modern",
     "useLocalLib": false,
     "defaultCDN": "esm",
+    "warmDynamicImports": true,
     "queryOptions": {
       "dev": false,
       "target": "es2022"
     }
-  }
+  },
+  "publicDir": "public",
+  "base": "/"
 }
