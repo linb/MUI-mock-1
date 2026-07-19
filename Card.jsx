@@ -13,7 +13,7 @@ import {OpenInNew} from '@mui/icons-material';
  *   description  {string}
  *   bgcolor      {string}   Background colour for the card header band
  *   selected     {boolean}
- *   onSelect     {Function} dbac
+ *   onSelect     {Function}
  */
 export default function Card({ title, description, bgcolor = '#f5f5f5', selected, onSelect }) {
     return (
