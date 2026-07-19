@@ -6,7 +6,7 @@ import { Button as MuiButton, CircularProgress } from '@mui/material';
  *
  * Props:
  *   loading  {boolean}  Show spinner and disable interaction
- *   All other MUI Button props are forwarded as-is.
+ *   All other MUI Button props are forwarded as-is .aab
  */
 export default function AppButton({ children, loading = false, disabled, startIcon, sx, ...rest }) {
     return (
